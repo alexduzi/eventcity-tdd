@@ -1,10 +1,11 @@
 package com.devsuperior.demo.dto;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
 import com.devsuperior.demo.entities.Event;
 
-public class EventDTO {
+public class EventDTO implements Serializable {
 	
 	private Long id;
 	private String name;

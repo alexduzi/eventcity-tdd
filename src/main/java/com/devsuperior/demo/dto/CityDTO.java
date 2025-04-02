@@ -2,7 +2,9 @@ package com.devsuperior.demo.dto;
 
 import com.devsuperior.demo.entities.City;
 
-public class CityDTO {
+import java.io.Serializable;
+
+public class CityDTO implements Serializable {
 	
 	private Long id;
 	private String name;
