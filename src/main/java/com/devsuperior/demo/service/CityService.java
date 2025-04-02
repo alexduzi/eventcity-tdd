@@ -16,7 +16,7 @@ import java.util.List;
 @Service
 public class CityService {
 
-    private CityRepository repository;
+    private final CityRepository repository;
 
     public CityService(CityRepository repository) {
         this.repository = repository;

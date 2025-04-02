@@ -15,7 +15,7 @@ import static org.springframework.http.HttpStatus.OK;
 @RequestMapping(value = "/cities")
 public class CityController {
 
-    private CityService service;
+    private final CityService service;
 
     public CityController(CityService service) {
         this.service = service;

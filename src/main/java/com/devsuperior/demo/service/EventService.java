@@ -14,9 +14,9 @@ import java.util.Optional;
 @Service
 public class EventService {
 
-    private EventRepository repository;
+    private final EventRepository repository;
 
-    private CityRepository cityRepository;
+    private final CityRepository cityRepository;
 
     public EventService(EventRepository repository, CityRepository cityRepository) {
         this.repository = repository;
